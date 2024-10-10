@@ -1,0 +1,99 @@
+:root {
+    --background: #f4f4f9;
+    --card-bg: #ffffff;
+    --text-color: #333333;
+    --accent-color: #3498db;
+    --border-color: #e0e0e0;
+}
+
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+    background-color: var(--background);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    color: var(--text-color);
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    color: var(--text-color);
+    margin-top: -0.5rem;
+}
+
+#schedule-section {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    background-color: var(--card-bg);
+    border-radius: 0.75rem;
+    border: 1px solid var(--border-color);
+    padding: 2rem;
+    width: 90%;
+    max-width: 600px;
+    min-height: 43vh; /* Add a minimum height to the box */
+    text-align: left;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.row:last-child {
+    border-bottom: none;
+}
+
+.col {
+    font-size: 1rem;
+}
+
+/* Ensure button stays at the bottom */
+#next-day-btn {
+    position: relative;
+    margin-top: 20px;
+}
+
+footer {
+    font-size: 0.875rem;
+    color: var(--text-color);
+    background-color: var(--background);
+    height: 5.5vh;
+}
+
+/* Mobile-first design */
+@media (max-width: 767px) {
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    #box {
+        padding: 1.5rem;
+    }
+}
