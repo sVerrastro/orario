@@ -1,6 +1,6 @@
 var orario = [];
 var today;
-var currentDayIndex = new Date().getDay(); // Start with today's index
+var currentDayIndex = new Date().getDay();
 
 document.addEventListener('DOMContentLoaded', (event) => {
     fetch("data.json")
@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
         })
         .catch(error => console.error('Error fetching the JSON data:', error));
 
-    // Add event listener to the next day button
     document.getElementById('next-day-btn').addEventListener('click', () => {
         switchToNextDay();
     });
@@ -23,7 +22,6 @@ function getDay() {
     let dayName = giorni[currentDayIndex];
     today = orario[dayName];
     
-    // Display the current day at the top of the box
     let box = document.getElementById('box');
     box.innerHTML = `<h2 class="day-title" style="color: var(--accent-color);">${dayName.charAt(0).toUpperCase() + dayName.slice(1)}</h2>`;
 }
@@ -57,7 +55,6 @@ function drawChart() {
 function switchToNextDay() {
     const giorni = ["domenica", "lunedi", "martedi", "mercoledi", "giovedi", "venerdi", "sabato"];
     
-    // Increment the day index and wrap it around after Saturday
     currentDayIndex = (currentDayIndex + 1) % giorni.length;
     
     getDay();
