@@ -1,47 +1,47 @@
 {
     "domenica" : {},
     "lunedi" : {
-        "08:05" : "informatica",
-        "09:05" : "informatica",
-        "10:05" : "inglese",
-        "11:05" : "italiano",
-        "12:05" : "italiano"
+        "08:05" : "informatica+",
+        "09:05" : "informatica+",
+        "10:05" : "dante",
+        "11:05" : "gpoi",
+        "12:05" : "gpoi"
     },
     "martedi" : {
-        "08:05" : "italiano",
-        "09:05" : "motoria",
-        "10:05" : "religione",
-        "11:05" : "inglese",
-        "12:05" : "inglese",
-        "13:05" : "informatica"
+        "08:05" : "tpsit",
+        "09:05" : "tpsit",
+        "10:05" : "letteratura",
+        "11:05" : "letteratura",
+        "12:05" : "informatica+",
+        "13:05" : "inglese"
     },
     "mercoledi" : {
-        "08:05" : "informatica",
-        "09:05" : "gpoi",
-        "10:05" : "motoria",
-        "11:05" : "tpsit",
-        "12:05" : "tpsit"
+        "08:05" : "informatica+",
+        "09:05" : "motoria",
+        "10:05" : "religione",
+        "11:05" : "tpsit+",
+        "12:05" : "tpsit+"
     },
     "giovedi" : {
-        "08:05" : "informatica",
-        "09:05" : "gpoi",
-        "10:05" : "gpoi",
-        "11:05" : "informatica",
-        "12:05" : "reti",
-        "13:05" : "italiano"
+        "08:05" : "informatica+",
+        "09:05" : "informatica",
+        "10:05" : "storia",
+        "11:05" : "reti",
+        "12:05" : "inglese",
+        "13:05" : "inglese"
     },
     "venerdi" : {
-        "08:05" : "matematica",
-        "09:05" : "italiano",
-        "10:05" : "reti",
-        "11:05" : "tpsit",
-        "12:05" : "tpsit"
+        "08:05" : "reti",
+        "09:05" : "matematica",
+        "10:05" : "letteratura",
+        "11:05" : "gpoi+",
+        "12:05" : "motoria"
     },
     "sabato" : {
-        "08:05" : "reti",
-        "09:05" : "reti",
+        "08:05" : "reti+",
+        "09:05" : "reti+",
         "10:05" : "matematica",
         "11:05" : "matematica",
-        "12:05" : "italiano"
+        "12:05" : "storia"
     }
 }
