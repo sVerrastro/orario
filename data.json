@@ -3,7 +3,7 @@
     "lunedi" : {
         "08:05" : "informatica+",
         "09:05" : "informatica+",
-        "10:05" : "dante",
+        "10:05" : "storia",
         "11:05" : "gpoi",
         "12:05" : "gpoi"
     },
@@ -25,7 +25,7 @@
     "giovedi" : {
         "08:05" : "informatica+",
         "09:05" : "informatica",
-        "10:05" : "storia",
+        "10:05" : "dante",
         "11:05" : "reti",
         "12:05" : "inglese",
         "13:05" : "inglese"
