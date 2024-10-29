@@ -10,9 +10,9 @@
     "martedi" : {
         "08:05" : "tpsit",
         "09:05" : "tpsit",
-        "10:05" : "letteratura",
+        "10:05" : "informatica+",
         "11:05" : "letteratura",
-        "12:05" : "informatica+",
+        "12:05" : "letteratura",
         "13:05" : "inglese"
     },
     "mercoledi" : {
@@ -26,7 +26,7 @@
         "08:05" : "informatica+",
         "09:05" : "informatica",
         "10:05" : "storia",
-        "11:05" : "reti",
+        "11:05" : "reti+",
         "12:05" : "inglese",
         "13:05" : "inglese"
     },
@@ -38,7 +38,7 @@
         "12:05" : "motoria"
     },
     "sabato" : {
-        "08:05" : "reti+",
+        "08:05" : "reti",
         "09:05" : "reti+",
         "10:05" : "matematica",
         "11:05" : "matematica",
